@@ -1,0 +1,42 @@
+.block {
+	position: relative;
+	width: 900px;
+	height: 460px;
+	overflow: hidden;
+	-ms-touch-action: none; /* mandatory for IE */
+}
+.block__in {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 4500px;
+	height: 460px;
+}
+.block__in img {
+	float: left;
+} 
+.block__arrow {
+	position: absolute;
+	top: 50%;
+	margin-top: -25px;
+	width: 50px;
+	height: 50px;
+	background: #ccc;
+	color: #fff;
+	font-size: 42px;
+	text-align: center;
+	cursor: pointer;
+}
+.block__arrow_left {
+	left: 0px;
+}
+.block__arrow_right {
+	right: 0px;
+}
+.block__arrow_hide {
+	display: none;
+}
+.text {
+	color: #333;
+	font-size: 22px;
+}
