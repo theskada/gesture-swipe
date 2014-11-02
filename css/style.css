@@ -1,7 +1,7 @@
 .block {
+    width: 900px;
+    height: 460px;
 	position: relative;
-	width: 900px;
-	height: 460px;
 	overflow: hidden;
 	-ms-touch-action: none; /* mandatory for IE */
 }
